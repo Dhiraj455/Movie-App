@@ -76,7 +76,6 @@ h5 span {
   .single__modal {
     width: 300px;
     height: 70%;
-    top: 45%;
   }
 
   .single__modal h6 {
@@ -101,7 +100,6 @@ h5 span {
   .single__modal {
     height: 90%;
     left: 48%;
-    top: 45%;
   }
 }
 @media screen and (max-height: 800px) {
