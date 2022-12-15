@@ -50,3 +50,9 @@ h2 {
     top: -10px;
     font-weight: 700;
 }
+
+@media screen and (max-width: 450px) {
+    .MovieCard {
+        margin-left: 17px;
+    }
+}
