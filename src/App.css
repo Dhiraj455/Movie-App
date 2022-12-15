@@ -1,6 +1,7 @@
-body{
+body {
   background-color: #E5E5E5;
 }
+
 .App {
   width: 85%;
   margin-left: 7%;
@@ -38,14 +39,15 @@ body{
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
 
-.movie_grid{
+.movie_grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(290px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
   grid-gap: 20px;
   margin: 20px 0px;
 }
@@ -79,13 +81,21 @@ body{
 
 @media screen and (max-width: 768px) {
   .Navbar {
-      flex-direction: column;
-      align-items: center;
+    flex-direction: column;
+    align-items: center;
   }
+
   .Navbar .logo img {
-      margin: 1rem 0;
+    margin: 1rem 0;
   }
+
   .search input {
-      width: 100%;
+    width: 100%;
+  }
+
+  .App {
+    width: 95%;
+    margin-left: 2%;
+    margin-right: 2%;
   }
 }
