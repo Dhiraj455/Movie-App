@@ -75,11 +75,18 @@ h5 span {
 @media only screen and (max-width: 992px) {
   .single__modal {
     width: 300px;
-    height: auto;
+    height: 70%;
   }
 
   .single__modal h6 {
     font-size: 0.9rem;
+  }
+
+  .left img {
+    width: 100%;
+  }
+  .modal__body{
+    flex-direction: column;
   }
 
   .single__modal p {
