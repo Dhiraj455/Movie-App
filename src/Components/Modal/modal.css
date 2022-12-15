@@ -74,7 +74,7 @@ h5 span {
 
 @media only screen and (max-width: 992px) {
   .single__modal {
-    width: 600px;
+    width: 60%;
     height: 70%;
   }
 
@@ -98,7 +98,7 @@ h5 span {
 
 @media screen and (max-width: 600px) {
   .single__modal {
-    width: 400px;
+    width: 70%;
     height: 80%;
     left: 48%;
   }
